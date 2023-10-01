@@ -7,7 +7,7 @@ export function createHotel(): Promise<Hotel> {
     data: {
       name: faker.name.findName(),
       image: faker.internet.url(),
-      updatedAt: new Date()
+      updatedAt: new Date(),
     },
   });
 }
